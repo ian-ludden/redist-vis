@@ -26,7 +26,7 @@ geojson = pdk.Layer(
      get_fill_color='color',
      get_line_color='[255, 255, 255]'
 )
-
+ 
 r = pdk.Deck(layers=[geojson],
             initial_view_state=INITIAL_VIEW_STATE,
             mapbox_key='pk.eyJ1Ijoic2t5aWVuLXoiLCJhIjoiY2tnODJiaXRyMDl1OTJzbWtveTRsaGMwOSJ9.zFW9CBqmz3PAJ74FLRZRBA',
